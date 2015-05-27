@@ -1,4 +1,4 @@
-package com.sinha.tutorial.designPattern.decorator.CarExample;
+package com.sinha.tutorial.decoratorDP.CarExample;
 
 public abstract class CarDecorator implements Car {
 

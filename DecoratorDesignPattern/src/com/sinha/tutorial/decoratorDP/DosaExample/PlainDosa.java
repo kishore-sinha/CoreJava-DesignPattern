@@ -1,4 +1,4 @@
-package com.sinha.tutorial.designPattern.decorator.DosaExample;
+package com.sinha.tutorial.decoratorDP.DosaExample;
 
 public class PlainDosa implements Dosa{
 
