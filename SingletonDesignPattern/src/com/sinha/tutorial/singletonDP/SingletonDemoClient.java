@@ -1,4 +1,4 @@
-package com.sinha.kishore.singleton;
+package com.sinha.tutorial.singletonDP;
 
 public class SingletonDemoClient {
 
