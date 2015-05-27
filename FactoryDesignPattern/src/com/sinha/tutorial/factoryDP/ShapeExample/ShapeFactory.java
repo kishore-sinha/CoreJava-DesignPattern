@@ -1,9 +1,5 @@
-package com.sinha.kishore.factory;
+package com.sinha.tutorial.factoryDP.ShapeExample;
 
-import com.sinha.kishore.service.Shape;
-import com.sinha.kishore.service.impl.CircleImpl;
-import com.sinha.kishore.service.impl.RectangleImpl;
-import com.sinha.kishore.service.impl.SquareImpl;
 
 public class ShapeFactory {
 

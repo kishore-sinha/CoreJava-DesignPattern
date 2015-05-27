@@ -1,6 +1,5 @@
-package com.sinha.kishore.service.impl;
+package com.sinha.tutorial.factoryDP.ShapeExample;
 
-import com.sinha.kishore.service.Shape;
 
 public class CircleImpl implements Shape {
 

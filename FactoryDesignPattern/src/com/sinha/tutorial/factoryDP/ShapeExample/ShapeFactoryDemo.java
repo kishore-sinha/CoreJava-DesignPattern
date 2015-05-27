@@ -1,7 +1,5 @@
-package com.sinha.kishore.demo;
+package com.sinha.tutorial.factoryDP.ShapeExample;
 
-import com.sinha.kishore.factory.ShapeFactory;
-import com.sinha.kishore.service.Shape;
 
 public class ShapeFactoryDemo {
 
