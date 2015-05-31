@@ -1,90 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.8" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
   associations="true" dependencies="true" nesting-relationships="true">  
-  <class id="1" language="java" name="com.sinha.tutorial.templateDP.HouseExample.GlassHouse" 
+  <class id="1" language="java" name="com.sinha.tutorial.templateDP.CofeeExample.CoffeeClient" 
     project="TemplateDesignPattern" 
-    file="/TemplateDesignPattern/src/com/sinha/tutorial/templateDP/HouseExample/GlassHouse.java" binary="false" 
+    file="/TemplateDesignPattern/src/com/sinha/tutorial/templateDP/CofeeExample/CoffeeClient.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="252" y="509"/>    
+    <position height="-1" width="-1" x="740" y="171"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="com.sinha.tutorial.templateDP.HouseExample.HouseTemplate" 
+  <class id="2" language="java" name="com.sinha.tutorial.templateDP.CofeeExample.CoffeeTemplate" 
     project="TemplateDesignPattern" 
-    file="/TemplateDesignPattern/src/com/sinha/tutorial/templateDP/HouseExample/HouseTemplate.java" binary="false" 
+    file="/TemplateDesignPattern/src/com/sinha/tutorial/templateDP/CofeeExample/CoffeeTemplate.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="811" y="112"/>    
+    <position height="-1" width="-1" x="341" y="234"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="com.sinha.tutorial.templateDP.HouseExample.WoodenHouse" 
+  <class id="3" language="java" name="com.sinha.tutorial.templateDP.CofeeExample.NescafeCoffee" 
     project="TemplateDesignPattern" 
-    file="/TemplateDesignPattern/src/com/sinha/tutorial/templateDP/HouseExample/WoodenHouse.java" binary="false" 
+    file="/TemplateDesignPattern/src/com/sinha/tutorial/templateDP/CofeeExample/NescafeCoffee.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="852" y="527"/>    
+    <position height="-1" width="-1" x="298" y="526"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="com.sinha.tutorial.templateDP.HouseExample.HousingClient" 
+  <class id="4" language="java" name="com.sinha.tutorial.templateDP.CofeeExample.BruCoffee" 
     project="TemplateDesignPattern" 
-    file="/TemplateDesignPattern/src/com/sinha/tutorial/templateDP/HouseExample/HousingClient.java" binary="false" 
+    file="/TemplateDesignPattern/src/com/sinha/tutorial/templateDP/CofeeExample/BruCoffee.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="188" y="99"/>    
+    <position height="-1" width="-1" x="557" y="526"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="com.sinha.tutorial.templateDP.HouseExample.ConcreateHouse" 
-    project="TemplateDesignPattern" 
-    file="/TemplateDesignPattern/src/com/sinha/tutorial/templateDP/HouseExample/ConcreateHouse.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="539" y="522"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <generalization id="6">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
-  <dependency id="7">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="1"/>  
-  </dependency>  
-  <dependency id="8">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="5"/>  
-  </dependency>  
-  <dependency id="9">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="2"/>  
-  </dependency>  
-  <generalization id="10">    
+  <dependency id="5">    
     <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
-  <generalization id="11">    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <generalization id="6">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="2"/>  
   </generalization>  
-  <dependency id="12">    
-    <bendpoint x="537" y="319"/>    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="3"/>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
   </dependency>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

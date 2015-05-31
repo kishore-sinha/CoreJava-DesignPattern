@@ -1,6 +1,6 @@
-package com.sinha.tutorial.templateDP;
+package com.sinha.tutorial.templateDP.HouseExample;
 
-public class WoodenHouse extends HouseTemplate {
+public class GlassHouse extends HouseTemplate {
 
 	@Override
 	void buildFoundation() {
@@ -11,25 +11,25 @@ public class WoodenHouse extends HouseTemplate {
 	@Override
 	void buildPillars() {
 		// TODO Auto-generated method stub
-		System.out.println("Building Pillars with Wooden Logs");
+		System.out.println("Building Pillars with Glass Coating");
 	}
 
 	@Override
 	void buildWalls() {
 		// TODO Auto-generated method stub
-		System.out.println("Building Wooden Walls");
+		System.out.println("Building Glass Walls");
 	}
 
 	@Override
 	void buildWindows() {
 		// TODO Auto-generated method stub
-		System.out.println("Building Wooden Windows");
+		System.out.println("Building Glass Windows");
 	}
 
 	@Override
 	void buildRoof() {
 		// TODO Auto-generated method stub
-		System.out.println("Building Wooden Roof");
+		System.out.println("Building Glass Roof");
 	}
 
 }

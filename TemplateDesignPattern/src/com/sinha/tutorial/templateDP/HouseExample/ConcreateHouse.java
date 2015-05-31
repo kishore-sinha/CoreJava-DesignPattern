@@ -1,4 +1,4 @@
-package com.sinha.tutorial.templateDP;
+package com.sinha.tutorial.templateDP.HouseExample;
 
 public class ConcreateHouse extends HouseTemplate {
 
