@@ -1,11 +1,11 @@
 # Eclipse
-#.classpath
-#.project
-#.settings/
-#.metadata
+.classpath
+.project
+.settings/
+.metadata
 RemoteSystemsTempFiles/
-*.ucls
-**/*.ucls
+#*.ucls
+#**/*.ucls
 *.jpg
 **/*.jpg
 
