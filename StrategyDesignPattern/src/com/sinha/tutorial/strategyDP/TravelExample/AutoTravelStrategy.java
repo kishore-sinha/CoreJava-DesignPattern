@@ -4,7 +4,7 @@ public class AutoTravelStrategy implements TravelStrategy {
 
 	public void goToAirport() {
 		// TODO Auto-generated method stub
-		System.out.println("Traveler is going to Airport by Auto");
+		System.out.println("Traveler is going to Airport by Auto and will be charged Rs.600");
 	}
 
 }
